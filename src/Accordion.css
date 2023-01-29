@@ -3,20 +3,22 @@
      justify-content: center;
      align-items: center;
      flex-direction: column;
-     border: 1px solid white;
+     border: 1px solid rgb(253, 252, 252);
+     
      width: 500px;
      margin: auto;
-     background-color: wheat;
-     margin-top: 287px;
-     height: 300px;
+     background-color: #f9f9f9;
+     
+     height: 80vh;
+     margin-top: 57px;
 
 
 }
 .container span {
      font-weight: bold;
      margin-right: 300px;
-     margin-bottom: 200px;
-     position: absolute;
+     padding: 5px;
+     
 }
 .container button {
      background-color: gray;
@@ -25,4 +27,7 @@
      padding: 5px;
      width: 26px;
      cursor: pointer;
+}
+.alldetail{
+     margin-bottom: 5px;
 }

@@ -4,18 +4,18 @@ import "./Showdetails.css";
 
 
 
-const ShowDetails = () => {
+const ShowDetails = ({titel,info}) => {
     const[showinfo,setShowinfo] = useState(false);
     
     return (
-        <div className='containerr'>
+        <div className='header'>
          <div className='details'>
+          <p>{titel}</p>
           <button onClick={()=>setShowinfo(!showinfo)}>{showinfo ? <p>-</p> : <p>+</p>}</button>
-          <p>titel</p>
           </div> 
            
           <div className='info'>
-            {showinfo && <p>infoooooooo</p>}
+            {showinfo && <p>{info}</p>}
           </div>
         </div>
     );
