@@ -1,0 +1,28 @@
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border: 1px solid white;
+     width: 500px;
+     margin: auto;
+     background-color: wheat;
+     margin-top: 287px;
+     height: 300px;
+
+
+}
+.container span {
+     font-weight: bold;
+     margin-right: 300px;
+     margin-bottom: 200px;
+     position: absolute;
+}
+.container button {
+     background-color: gray;
+     border: none;
+     border-radius: 50px;
+     padding: 5px;
+     width: 26px;
+     cursor: pointer;
+}

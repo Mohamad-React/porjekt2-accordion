@@ -1,0 +1,26 @@
+.containerr{
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid black;
+    width: 300px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.info {
+    text-align: right;
+    margin-top: 20px;
+    color: blue;
+}
+
+
